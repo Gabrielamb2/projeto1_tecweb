@@ -1,0 +1,12 @@
+Criando Banco de dados tarefas:
+
+CREATE TABLE Tarefas(id INT NOT NULL AUTO_INCREMENT, nome VARCHAR(32) NOT NULL, tag VARCHAR(32) NOT NULL, PRIMARY KEY(ID));
+
+INSERT INTO Tarefas(nome,tag) VALUES ('APS Modcom','INSPER');
+
+
+Criando Banco de dados login:
+
+CREATE TABLE Login(id INT NOT NULL AUTO_INCREMENT, nome VARCHAR(32) NOT NULL, senha VARCHAR(32) NOT NULL, PRIMARY KEY(ID));
+
+INSERT INTO Login(nome,senha) VALUES ('Gabi Boriero','1234');
